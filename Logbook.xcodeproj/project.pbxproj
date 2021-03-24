@@ -11,6 +11,7 @@
 		FA51FB30260BBF23009935A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51FB2F260BBF23009935A8 /* ContentView.swift */; };
 		FA51FB32260BBF23009935A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51FB31260BBF23009935A8 /* Assets.xcassets */; };
 		FA51FB35260BBF23009935A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51FB34260BBF23009935A8 /* Preview Assets.xcassets */; };
+		FA51FB4B260BC973009935A8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51FB4A260BC973009935A8 /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FA51FB31260BBF23009935A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA51FB34260BBF23009935A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA51FB36260BBF23009935A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA51FB4A260BC973009935A8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				FA51FB2D260BBF23009935A8 /* LogbookApp.swift */,
 				FA51FB2F260BBF23009935A8 /* ContentView.swift */,
+				FA51FB4A260BC973009935A8 /* DashboardView.swift */,
 				FA51FB31260BBF23009935A8 /* Assets.xcassets */,
 				FA51FB36260BBF23009935A8 /* Info.plist */,
 				FA51FB33260BBF23009935A8 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA51FB30260BBF23009935A8 /* ContentView.swift in Sources */,
+				FA51FB4B260BC973009935A8 /* DashboardView.swift in Sources */,
 				FA51FB2E260BBF23009935A8 /* LogbookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
