@@ -9,7 +9,29 @@ import SwiftUI
 
 struct DashboardView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack(spacing: 20) {
+                
+                Button {
+                    
+                } label: {
+                    Buttons(title: "My Trips", textColor: .black, backgroundColor: .red)
+                }
+                
+                Button {
+                    
+                } label: {
+                    Buttons(title: "Money", textColor: .black, backgroundColor: .red)
+                }
+                
+                Button {
+                    
+                } label: {
+                    Buttons(title: "PlaceHolder", textColor: .black, backgroundColor: .red)
+                }
+                .navigationTitle("Dashboard")
+            }
+        }
     }
 }
 
