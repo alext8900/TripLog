@@ -10,28 +10,40 @@ import SwiftUI
 struct DashboardView: View {
     var body: some View {
         NavigationView {
-            VStack(spacing: 20) {
-                
-                
-                
-                Button {
+            ZStack {
+                LinearGradient(gradient: Gradient(colors: [Color.red, Color.yellow]), startPoint: .bottomTrailing, endPoint: .top)
+                    .ignoresSafeArea()
+                VStack(spacing: 20) {
                     
-                } label: {
-                    Buttons(title: "My Trips", textColor: .black, backgroundColor: .red)
-                }
-                
-                Button {
+                    Image(systemName: "map")
+                        .resizable()
+                        .renderingMode(.original)
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 300, height: 275)
+                        .padding()
+                        .shadow(color: .black, radius: 12, x: 10, y: 30)
+                        Spacer()
                     
-                } label: {
-                    Buttons(title: "Money", textColor: .black, backgroundColor: .red)
-                }
-                
-                Button {
+                    Button {
+                        
+                    } label: {
+                        Buttons(title: "My Trips", textColor: .white, backgroundColor: .black)
+                    }
                     
-                } label: {
-                    Buttons(title: "PlaceHolder", textColor: .black, backgroundColor: .red)
+                    Button {
+                        
+                    } label: {
+                        Buttons(title: "Money", textColor: .white, backgroundColor: .black)
+                    }
+                    
+                    Button {
+                        
+                    } label: {
+                        Buttons(title: "PlaceHolder", textColor: .white, backgroundColor: .black)
+                    }
+                    .navigationTitle("Dashboard")
+                    Spacer()
                 }
-                .navigationTitle("Dashboard")
             }
         }
     }

@@ -14,6 +14,8 @@
 		FA51FB4B260BC973009935A8 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51FB4A260BC973009935A8 /* DashboardView.swift */; };
 		FA51FB4E260C2AB8009935A8 /* Screen Shot 2021-03-24 at 8.32.25 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = FA51FB4D260C2AB8009935A8 /* Screen Shot 2021-03-24 at 8.32.25 PM.png */; };
 		FA51FB55260C2EEB009935A8 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51FB54260C2EEB009935A8 /* Buttons.swift */; };
+		FA77C78A261E1B3C00FD20E1 /* NewTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77C789261E1B3C00FD20E1 /* NewTripView.swift */; };
+		FA77C78D261E1B6000FD20E1 /* MyTripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA77C78C261E1B6000FD20E1 /* MyTripsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FA51FB4A260BC973009935A8 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		FA51FB4D260C2AB8009935A8 /* Screen Shot 2021-03-24 at 8.32.25 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-03-24 at 8.32.25 PM.png"; sourceTree = "<group>"; };
 		FA51FB54260C2EEB009935A8 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		FA77C789261E1B3C00FD20E1 /* NewTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripView.swift; sourceTree = "<group>"; };
+		FA77C78C261E1B6000FD20E1 /* MyTripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				FA51FB2D260BBF23009935A8 /* LogbookApp.swift */,
 				FA51FB2F260BBF23009935A8 /* ContentView.swift */,
 				FA51FB4A260BC973009935A8 /* DashboardView.swift */,
+				FA77C789261E1B3C00FD20E1 /* NewTripView.swift */,
+				FA77C78C261E1B6000FD20E1 /* MyTripsView.swift */,
 				FA51FB54260C2EEB009935A8 /* Buttons.swift */,
 				FA51FB31260BBF23009935A8 /* Assets.xcassets */,
 				FA51FB4D260C2AB8009935A8 /* Screen Shot 2021-03-24 at 8.32.25 PM.png */,
@@ -148,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA77C78A261E1B3C00FD20E1 /* NewTripView.swift in Sources */,
 				FA51FB30260BBF23009935A8 /* ContentView.swift in Sources */,
 				FA51FB4B260BC973009935A8 /* DashboardView.swift in Sources */,
+				FA77C78D261E1B6000FD20E1 /* MyTripsView.swift in Sources */,
 				FA51FB2E260BBF23009935A8 /* LogbookApp.swift in Sources */,
 				FA51FB55260C2EEB009935A8 /* Buttons.swift in Sources */,
 			);
