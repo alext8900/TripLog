@@ -12,6 +12,9 @@ struct NewTripView: View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color.red, Color.yellow]), startPoint: .bottomTrailing, endPoint: .top)
                 .ignoresSafeArea()
+            VStack {
+                
+            }
         }
     }
 }
