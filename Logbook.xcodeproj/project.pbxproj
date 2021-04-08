@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4EBB9F261EB6F3005E990D /* ExtendedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4EBB9E261EB6F3005E990D /* ExtendedDivider.swift */; };
 		FA51FB2E260BBF23009935A8 /* LogbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51FB2D260BBF23009935A8 /* LogbookApp.swift */; };
 		FA51FB30260BBF23009935A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA51FB2F260BBF23009935A8 /* ContentView.swift */; };
 		FA51FB32260BBF23009935A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA51FB31260BBF23009935A8 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4EBB9E261EB6F3005E990D /* ExtendedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedDivider.swift; sourceTree = "<group>"; };
 		FA51FB2A260BBF23009935A8 /* Logbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Logbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA51FB2D260BBF23009935A8 /* LogbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbookApp.swift; sourceTree = "<group>"; };
 		FA51FB2F260BBF23009935A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				FA51FB4A260BC973009935A8 /* DashboardView.swift */,
 				FA77C789261E1B3C00FD20E1 /* NewTripView.swift */,
 				FA77C78C261E1B6000FD20E1 /* MyTripsView.swift */,
+				FA4EBB9E261EB6F3005E990D /* ExtendedDivider.swift */,
 				FA51FB54260C2EEB009935A8 /* Buttons.swift */,
 				FA51FB31260BBF23009935A8 /* Assets.xcassets */,
 				FA51FB4D260C2AB8009935A8 /* Screen Shot 2021-03-24 at 8.32.25 PM.png */,
@@ -158,6 +161,7 @@
 				FA51FB30260BBF23009935A8 /* ContentView.swift in Sources */,
 				FA51FB4B260BC973009935A8 /* DashboardView.swift in Sources */,
 				FA77C78D261E1B6000FD20E1 /* MyTripsView.swift in Sources */,
+				FA4EBB9F261EB6F3005E990D /* ExtendedDivider.swift in Sources */,
 				FA51FB2E260BBF23009935A8 /* LogbookApp.swift in Sources */,
 				FA51FB55260C2EEB009935A8 /* Buttons.swift in Sources */,
 			);
