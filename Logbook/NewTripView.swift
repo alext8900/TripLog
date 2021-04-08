@@ -45,6 +45,13 @@ struct NewTripView: View {
                     
                     UserInputView(imageName: "location", userInputName: "Ontario, Canada")
                     ExtendedDivider()
+                    
+                }
+                DateHStack()
+                ExtendedDivider()
+                Spacer()
+                VStack {
+                Buttons(title: "Done", textColor: .white, backgroundColor: .black)
                 }
                 Spacer()
             }
