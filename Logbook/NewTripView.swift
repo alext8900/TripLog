@@ -24,45 +24,52 @@ struct NewTripView: View {
                     .font(.system(size: 35, weight: .semibold))
                     .padding(20)
                 
-                HStack {
-                    Text("From :")
-                        .font(.system(size: 23, weight: .regular))
-                        .padding()
-                    Spacer()
-                }
-                ExtendedDivider()
-
-                HStack {
+                Group {
+                    ToFromHstack(toOrFrom: "From :")
+                    
+                    ExtendedDivider()
+                    
+                    
                     UserInputView(imageName: "location", userInputName: "Starting Location")
+                    
+                    ExtendedDivider()
+                    
+                    DateHStack()
+                    
+                    ExtendedDivider()
+                    
+                    ToFromHstack(toOrFrom: "To :")
+                    
+                    ExtendedDivider()
+                    
+                    
+                    UserInputView(imageName: "location", userInputName: "Ontario, Canada")
+                    ExtendedDivider()
                 }
-                ExtendedDivider()
-                
-                HStack {
-                    Image(systemName: "calendar")
-                        .resizable()
-                        .renderingMode(.original)
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 26, height: 27)
-                        .padding(10)
-                    
-                    
-                    Text("\(Date().addingTimeInterval(600), style: .date) ,")
-                        .font(.system(size: 20, weight: .light))
-                    
-                    Text(Date().addingTimeInterval(0), style: .time)
-                        .font(.system(size: 20, weight: .light))
-                    
-                    Spacer()
-                }
-                ExtendedDivider()
                 Spacer()
-                HStack {
-                    Text("From :")
-                        .font(.system(size: 23, weight: .regular))
-                        .padding()
-                    Spacer()
-                }
             }
+        }
+    }
+}
+
+struct DateHStack: View {
+    var body: some View {
+        HStack {
+            Image(systemName: "calendar")
+                .resizable()
+                .renderingMode(.original)
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 26, height: 27)
+                .padding(10)
+            
+            
+            Text("\(Date().addingTimeInterval(600), style: .date) ,")
+                .font(.system(size: 20, weight: .light))
+            
+            Text(Date().addingTimeInterval(0), style: .time)
+                .font(.system(size: 20, weight: .light))
+            
+            Spacer()
         }
     }
 }
@@ -72,7 +79,7 @@ struct UserInputView: View {
     var userInputName: String
     
     var body: some View {
-        
+        HStack {
             Image(systemName: imageName)
                 .resizable()
                 .renderingMode(.original)
@@ -85,7 +92,21 @@ struct UserInputView: View {
                 .font(.system(size: 20, weight: .light))
             
             Spacer()
+        }
             
+    }
+}
+
+struct ToFromHstack: View {
+    var toOrFrom: String
+    
+    var body: some View {
+        HStack {
+            Text(toOrFrom)
+                .font(.system(size: 23, weight: .regular))
+                .padding()
+            Spacer()
+        }
     }
 }
 
