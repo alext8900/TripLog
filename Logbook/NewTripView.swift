@@ -37,8 +37,16 @@ struct NewTripView: View {
                     DateHStack()
                     
                     ExtendedDivider()
-                    
-                    ToFromHstack(toOrFrom: "To :")
+                    VStack {
+                        HStack {
+                            Text("To :")
+                                .font(.system(size: 23, weight: .regular))
+                                .frame(height: 50)
+                                .padding()
+                                
+                            Spacer()
+                        }
+                    }
                     
                     ExtendedDivider()
                     
